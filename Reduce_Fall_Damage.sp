@@ -6,7 +6,7 @@
 #define NAME		"Reduce Fall Damage"
 #define AUTHOR		"Master"
 #define VERSION		"1.0"
-#define URL			"https://cswild.pl/"
+#define URL		"https://cswild.pl/"
 
 public Plugin myinfo =
 { 
