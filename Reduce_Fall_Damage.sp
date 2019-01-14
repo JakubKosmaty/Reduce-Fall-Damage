@@ -20,7 +20,7 @@ float g_fPercentages;
 
 public void OnPluginStart()
 {
-	ConVar cvar = CreateConVar("sm_reduce_fall_damage", "0.50", "Ile procent obrażeń ma zadać", 0); cvar.AddChangeHook(OnCvarChange);
+	ConVar cvar = CreateConVar("sm_reduce_fall_damage", "0.50", "Percentage of damage", 0); cvar.AddChangeHook(OnCvarChange);
 	g_fPercentages = cvar.FloatValue;
 
 	AutoExecConfig(true, "Reduce_Fall_Damage");
